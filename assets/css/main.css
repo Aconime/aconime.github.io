@@ -199,12 +199,25 @@ input, select, textarea {
 				width: calc(100% - 100px);
 			}
 
+			#java-icon {
+				margin-top: 50px !important;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
 
 			.container {
 				width: calc(100% - 40px);
+			}
+
+			.feature-list section {
+				padding-left: 0px !important;
+				padding-top: 30px !important;
+			}
+
+			.skill-icon {
+				display: none !important;
 			}
 
 		}
