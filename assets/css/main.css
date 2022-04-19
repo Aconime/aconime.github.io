@@ -1842,10 +1842,11 @@ input, select, textarea {
 	}
 
 		.feature-list section {
-			border-top: solid 1px #eee;
-			padding-top: 3em;
-			padding-left: 5em;
+			/* border-top: solid 1px #eee; */
+			/* padding-top: 3em; */
+			/* padding-left: 5em; */
 			position: relative;
+			text-align: center;
 		}
 
 		@media screen and (min-width: 981px) {
@@ -2996,3 +2997,8 @@ input, select, textarea {
 						}
 
 	}
+
+
+.custom-col {
+	padding-left: 0px !important;
+}
